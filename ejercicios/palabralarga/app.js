@@ -4,13 +4,14 @@ const palabraLarga = function(){
     const palabra1 = document.getElementById("palabra1").value
     const palabra2 = document.getElementById("palabra2").value
     
-    let resultado = palabra1.length - palabra2.length
 
-    if (resultado > 0){
+    if (palabra1.length > palabra2.length){
+        let resultado = palabra1.length - palabra2.length
         document.getElementById("resultado").innerHTML="La palabra 1 tiene " + resultado + " mas letras que la palabra 2"
     }
 
-    else if (resultado < 0){
+    else if (palabra2.length > palabra1.length){
+        let resultado = palabra2.length - palabra1.length
         document.getElementById("resultado").innerHTML="La palabra 2 tiene " + resultado + " mas letras que la palabra 2"
     }
 
