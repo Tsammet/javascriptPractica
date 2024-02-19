@@ -10,4 +10,4 @@ const mostrarDetallesLibro = function({title, autor, genre, datePublish, editori
     console.log("El Titulo es: "+ title + "\n El autor es: "+ autor + "\n el genero es: " + genre + "\n el año de publicaciòn fue: "+ datePublish + "\n Y su editorial es: "+ editorial)
 }
 
-mostrarDetallesLibro(libro)
+                                                       mostrarDetallesLibro(libro)

@@ -1,0 +1,3 @@
+const inicializarJuego = function(){
+    
+}
